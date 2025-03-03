@@ -17,7 +17,7 @@ function completeTask(button, taskName) {
     taskCount1.innerText = parseInt(taskCount1.innerText) + 1;
     
     let taskCount2 = document.getElementById("taskCount2");
-    taskCount2.innerText = parseInt(taskCount2.innerText) + 1;
+    taskCount2.innerText = parseInt(taskCount2.innerText) - 1;
 
     let history = document.getElementById("taskHistory");
     let li = document.createElement("li");
